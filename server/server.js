@@ -12,23 +12,23 @@ const cards = [
     card_number: 1234565499992020,
     cvv: 345,
     thru: "2022-12-20",
-    isDisable: false
+    isDisable: false,
   },
   {
     first_name: "Girish",
     last_name: "Ugale",
-    card_number: 678765545678,
+    card_number: 6787655456782022,
     cvv: 312,
     thru: "2022-02-25",
-    isDisable: false
+    isDisable: false,
   },
   {
     first_name: "Rahul",
     last_name: "Ugale",
-    card_number: 678765545678,
+    card_number: 6787655456782021,
     cvv: 312,
     thru: "2022-02-25",
-    isDisable: false
+    isDisable: false,
   },
 ];
 
@@ -55,4 +55,3 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening on the port::${port}`);
 });
-
